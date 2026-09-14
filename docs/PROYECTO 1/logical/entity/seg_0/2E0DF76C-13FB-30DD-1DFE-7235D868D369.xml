@@ -1,0 +1,72 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="2E0DF76C-13FB-30DD-1DFE-7235D868D369" name="Pasajero">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:31:42 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="Documento" id="DBDF648B-3C87-2BF8-6450-661CEE38AFF7">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:31:58 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_registro" id="DC211007-2655-CC3A-45CE-ED533E7DE534">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:32:14 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Documento1" id="D635C4C5-5DD6-118C-C83D-5A9C2AA05929">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:33:50 UTC</createdTime>
+<generatorID>78CE6A87-13D7-09CE-38B1-D2B719FB4858</generatorID>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<referedAttribute>DDD81283-4B05-4B13-524A-C03302BA4AD9</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="C592D48B-0257-4414-4AED-170C14C69F0C" name="Pasajero PK">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:32:04 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>DBDF648B-3C87-2BF8-6450-661CEE38AFF7</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

@@ -1,0 +1,123 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="84383194-2397-1D4A-D413-6862A4AA498E" name="Parada viaje">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:23:19 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_viaje" id="2C920F0D-671C-CDB6-5481-A8227704304E">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:23:30 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_punto" id="4C1CE49A-AD70-4072-69BD-8E1CF2CE64D4">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:23:42 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Orden" id="665B3439-4805-3AA1-5849-ADD1D0E4B6D5">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:23:55 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Origen_parada" id="6D435A7C-5A8C-365D-C7F2-AAF05B3CBA31">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:24:04 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Attribute_5" id="F9F07AE4-5DC0-2E48-1B73-6817755CFBC5">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:24:15 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<use>0</use>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_viaje1" id="906332F7-A6AF-485D-5E7C-D94E79E8F4F6">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:24:43 UTC</createdTime>
+<generatorID>53E2E8FF-A5D4-1DF3-9BC4-2E5F3FB90DEE</generatorID>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<referedAttribute>C9588A3D-C36D-1DD2-51F1-5654BCA475A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_origen" id="112736F2-959E-61DF-6B5C-86A0D74BD39F">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:25:34 UTC</createdTime>
+<generatorID>E66BC8CC-E1F9-E9B1-DBFE-E6BE4299D639</generatorID>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<referedAttribute>7B31C59B-A2ED-FCCE-4FBB-2531BF19B0D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="9B62E2B8-0411-982D-C2F9-EF7F7DCEAAFD" name="Parada viaje PK">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:23:49 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2C920F0D-671C-CDB6-5481-A8227704304E</attributeRef>
+<attributeRef>4C1CE49A-AD70-4072-69BD-8E1CF2CE64D4</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

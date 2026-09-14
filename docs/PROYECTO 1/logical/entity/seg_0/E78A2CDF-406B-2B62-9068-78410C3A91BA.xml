@@ -1,0 +1,71 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="E78A2CDF-406B-2B62-9068-78410C3A91BA" name="Localidad">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:21:46 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_localidad" id="5D8DEB3F-1E0B-27DD-8D66-F482BEFD4886">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:22:02 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Nombre" id="C1C02DFA-1EA2-BDCF-8064-78D0AD37A0DE">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:22:16 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Ciudad" id="225B5BCB-E3BB-FA23-0673-3AA42569DC58">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:22:24 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FDA89CC9-0106-3757-0EC9-42BBB1238A85" name="Localidad PK">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:22:15 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>5D8DEB3F-1E0B-27DD-8D66-F482BEFD4886</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

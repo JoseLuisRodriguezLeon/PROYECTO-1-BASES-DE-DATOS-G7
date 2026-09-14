@@ -1,0 +1,152 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="B3A18D34-FB10-FBB6-F90A-E3A709877C49" name="Solicitud">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:26:28 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_viaje" id="716D12B2-DF7D-32F0-40B5-CEAB4AB9CECC">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:26:47 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Documento_pasajero" id="3F9C6856-D984-744E-373A-58E7236A853E">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:27:08 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_punto" id="F153933D-20B5-D273-CFC8-F94D31729087">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:27:24 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_solicitud" id="BF52DE62-31AA-E925-EB4E-09A6F45D0502">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:27:40 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Estado" id="4BC512A0-601E-8539-C4D7-1108DE4FA8B3">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:27:54 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Fecha_respuesta" id="C8807D1A-6EAC-F55C-2BCF-08B8CEE8BFD5">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:28:04 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_viaje1" id="D708DB63-202B-1798-C957-20672DD45707">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:28:38 UTC</createdTime>
+<generatorID>51846E56-DD01-C2F5-1CC1-A57DEEBF15C7</generatorID>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<referedAttribute>C9588A3D-C36D-1DD2-51F1-5654BCA475A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_origen" id="A7AECB6F-2C0F-ED8F-A803-6665E7C5991D">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:29:13 UTC</createdTime>
+<generatorID>F2999E10-77D2-253E-484B-AF1AEFA58F46</generatorID>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<referedAttribute>7B31C59B-A2ED-FCCE-4FBB-2531BF19B0D5</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Documento" id="E7EE123B-26F8-F866-B412-0EF0E4D11466">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:32:49 UTC</createdTime>
+<generatorID>C5F5B3D3-417F-AEFB-18F1-BF76D5087F1F</generatorID>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<referedAttribute>DBDF648B-3C87-2BF8-6450-661CEE38AFF7</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="93B9996B-238B-E6B7-5C15-E5F68F120776" name="Solicitud PK">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:27:07 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>716D12B2-DF7D-32F0-40B5-CEAB4AB9CECC</attributeRef>
+<attributeRef>3F9C6856-D984-744E-373A-58E7236A853E</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

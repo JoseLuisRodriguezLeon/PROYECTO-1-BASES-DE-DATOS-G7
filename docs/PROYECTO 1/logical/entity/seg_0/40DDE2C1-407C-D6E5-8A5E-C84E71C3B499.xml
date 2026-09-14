@@ -1,0 +1,99 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="40DDE2C1-407C-D6E5-8A5E-C84E71C3B499" name="Punto">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:19:28 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="ID_origen" id="7B31C59B-A2ED-FCCE-4FBB-2531BF19B0D5">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:19:39 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Direccion" id="C7938C7D-A94D-D593-23A5-F8EC6A54C09A">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:20:31 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="Referencia" id="85FC4C98-DB53-0CE7-1517-3291FAF1FA7B">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:20:44 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_viaje" id="5322E330-E5D2-95B7-25A4-180C632B1FC4">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:21:18 UTC</createdTime>
+<generatorID>C7EE1F22-2568-C6B0-FF54-094CC0B4064B</generatorID>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<referedAttribute>C9588A3D-C36D-1DD2-51F1-5654BCA475A8</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="ID_localidad1" id="C123FC0F-F4CE-28FF-2BC6-A334F837C984">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:22:45 UTC</createdTime>
+<generatorID>63832354-A0D4-149A-CED1-3E0DF17CF0DD</generatorID>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<referedAttribute>5D8DEB3F-1E0B-27DD-8D66-F482BEFD4886</referedAttribute>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="412B370C-8E75-D334-AB43-A713AE7C3691" name="Punto PK">
+<createdBy>Jota L</createdBy>
+<createdTime>2026-09-14 04:20:15 UTC</createdTime>
+<ownerDesignName>PROYECTO 1</ownerDesignName>
+<engineerTo>
+<item key="F93D4D56-FD87-DFDD-183B-08E4787D4DC0" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>7B31C59B-A2ED-FCCE-4FBB-2531BF19B0D5</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
